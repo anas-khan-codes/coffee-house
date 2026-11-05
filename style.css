@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5eee6;
+}
+
+header {
+    background: #302019;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: #e6b878;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    margin-top: 0px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #e6b878;
+} 
+
+/* HERO SECTION */
+
+#home {
+    background-color: 164b35;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#home h2{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+#home p{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
